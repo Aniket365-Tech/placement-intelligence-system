@@ -54,7 +54,7 @@ export const Sidebar = () => {
       <aside className={`fixed inset-y-0 left-0 z-50 w-64 bg-white border-r border-slate-200 transform transition-transform duration-300 ease-in-out lg:translate-x-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between h-16 px-6 border-b border-slate-100">
-            <span className="font-bold text-slate-800 text-xl tracking-tight">SPIS <span className="text-blue-600">v2.0</span></span>
+            <span className="font-bold text-blue-800 text-xl tracking-tight">SPIS</span>
             <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-slate-500 p-1">
               <X size={20} />
             </button>
@@ -87,20 +87,7 @@ export const Sidebar = () => {
             ))}
           </nav>
 
-          <div className="p-4 border-t border-slate-100">
-            <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="p-1.5 bg-blue-100 text-blue-600 rounded-lg">
-                  <Zap size={16} />
-                </div>
-                <span className="text-xs font-bold text-slate-800">PRO FEATURE</span>
-              </div>
-              <p className="text-[10px] text-slate-500 mb-3 leading-relaxed">Unlock detailed company pattern intelligence and alumni networks.</p>
-              <button className="w-full py-2 bg-slate-800 text-white rounded-lg text-xs font-semibold hover:bg-slate-900 transition-colors">
-                Upgrade Plan
-              </button>
-            </div>
-          </div>
+          
         </div>
       </aside>
     </>
