@@ -89,20 +89,7 @@ export const Sidebar: React.FC = () => {
             ))}
           </nav>
 
-          {/* <div className="p-4 border-t border-slate-100">
-            <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="p-1.5 bg-blue-100 text-blue-600 rounded-lg">
-                  <Zap size={16} />
-                </div>
-                <span className="text-xs font-bold text-slate-800">PRO FEATURE</span>
-              </div>
-              <p className="text-[10px] text-slate-500 mb-3 leading-relaxed">Unlock detailed company pattern intelligence and alumni networks.</p>
-              <button className="w-full py-2 bg-slate-800 text-white rounded-lg text-xs font-semibold hover:bg-slate-900 transition-colors">
-                Upgrade Plan
-              </button>
-            </div>
-          </div> */}
+         
         </div>
       </aside>
     </>
