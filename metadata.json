@@ -1,0 +1,7 @@
+{
+  "name": "Smart Placement Intelligence System",
+  "description": "A comprehensive SaaS-style placement dashboard for engineering students featuring AI-driven readiness scoring, resume analysis, and job tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
