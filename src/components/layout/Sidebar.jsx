@@ -87,7 +87,7 @@ export const Sidebar = () => {
             ))}
           </nav>
 
-          {/* <div className="p-4 border-t border-slate-100">
+          <div className="p-4 border-t border-slate-100">
             <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
               <div className="flex items-center gap-2 mb-2">
                 <div className="p-1.5 bg-blue-100 text-blue-600 rounded-lg">
@@ -100,7 +100,7 @@ export const Sidebar = () => {
                 Upgrade Plan
               </button>
             </div>
-          </div> */}
+          </div>
         </div>
       </aside>
     </>
